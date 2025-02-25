@@ -1,0 +1,11 @@
+.nav-link{
+    font-size: 14px!important;
+}
+.nav-link i{
+    font-size: 14px!important;
+    margin: 0 5px;
+}
+.navbar-toggler-icon{
+    background-color: white!important;
+    border-radius: 5px;
+}

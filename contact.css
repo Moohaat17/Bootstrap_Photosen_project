@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --BackgroundColor: #000;
+    --Greycolor: #FFFFFF80;
+    --Whitecolor: #fff;
+    --tabcolor: #20c997;
+}
+
+body {
+    font-family: "Josefin Sans", sans-serif!important;
+    background-color: var(--BackgroundColor) !important;
+}
+
+/* Header */
+header nav .title h1 {
+    font-size: 32px;
+    color: var(--Whitecolor);
+}
+.site-menu{
+    padding-left: 126px!important;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: transparent !important;
+    box-shadow: none;
+    color: var(--tabcolor) !important;
+    
+}
+
+.nav-link {
+    display: block;
+    color: var(--Greycolor) !important;
+    font-size: 14px !important;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+.nav-link i{
+    font-size: 14px!important;
+    margin: 0 5px;
+}
+.navbar-toggler-icon{
+    background-color: white!important;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    color: var(--tabcolor) !important;
+}
+
+.social-icons ul {
+    list-style: none;
+}
+
+.social-icons ul li a i {
+    color: var(--Greycolor);
+}
+
+.social-icons ul li a:hover i {
+    color: white;
+}
+/* main */
+.contact{
+    margin: 70px 0;
+    padding: 0 15px;
+}
+.contact .title h2{
+    font-size: 64px;
+    letter-spacing: .05em;
+    color: #fff;
+    margin-bottom: 50px;
+}
+input[type="text"]{
+    background-color: transparent;
+    border-radius: 0;
+}
+input[type="email"]{
+    background-color: transparent;
+    border-radius: 0;
+}
+input[type="subject"]{
+    background-color: transparent;
+    border-radius: 0;
+}
+input[type="submit"]{
+   
+    border-radius: 0;
+}
+textarea{
+border-radius: 0;
+}
+
+.form-control{
+    background-color: transparent!important;
+    color: #fff!important;
+    box-shadow: none!important;
+    border-color: #fff!important;
+    border-radius: 0;
+}
+
+.btn{
+    background-color: var(--tabcolor)!important;
+    border-radius: 0;
+    border-color: transparent!important;
+}
+.btn:hover{
+    background-color: #1ba179!important;
+}
+.row p{
+    color: #777777;
+}
+.row a{
+    text-decoration: none;
+    color: var(--tabcolor);
+}
+/* footer */
+footer p {
+    color: white;
+    font-weight: 500;
+    letter-spacing: .1em;
+}

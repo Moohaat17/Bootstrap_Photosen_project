@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --BackgroundColor: #000;
+    --Greycolor: #FFFFFF80;
+    --Whitecolor: #fff;
+    --tabcolor: #20c997;
+}
+
+body {
+    font-family: "Josefin Sans", sans-serif!important;
+    background-color: var(--BackgroundColor) !important;
+}
+
+/* Header */
+header nav .title h1 {
+    font-size: 32px;
+    color: var(--Whitecolor);
+}
+.site-menu{
+    padding-left: 126px!important;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: transparent !important;
+    box-shadow: none;
+    color: var(--tabcolor) !important;
+    
+}
+
+.nav-link {
+    display: block;
+    color: var(--Greycolor) !important;
+    font-size: 14px !important;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+.nav-link i{
+    font-size: 14px!important;
+    margin: 0 5px;
+}
+.navbar-toggler-icon{
+    background-color: white!important;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    color: var(--tabcolor) !important;
+}
+
+.social-icons ul {
+    list-style: none;
+}
+
+.social-icons ul li a i {
+    color: var(--Greycolor);
+}
+
+.social-icons ul li a:hover i {
+    color: white;
+}
+/* main */
+.services{
+    margin: 70px 0;
+    padding: 0 15px;
+}
+.services .title h2{
+    font-size: 64px;
+    letter-spacing: .05em;
+    color: #fff;
+}
+
+/* main */
+.row .card {
+    background-color: #262626;
+    color: white;
+    border-radius: 0;
+}
+.card i{
+    font-size: 60px;
+    margin: 0 0 24px;
+    color: var(--tabcolor);
+    transition: all .50s ease;
+}
+.card i:hover{
+    transform: scale(1.2);
+}
+.card .price{
+    color: var(--tabcolor);
+}
+
+
+/* footer */
+footer p {
+    color: white;
+    font-weight: 500;
+    letter-spacing: .1em;
+}

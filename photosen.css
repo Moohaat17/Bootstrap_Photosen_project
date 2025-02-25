@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --BackgroundColor: #000;
+    --Greycolor: #FFFFFF80;
+    --Whitecolor: #fff;
+    --tabcolor: #20c997;
+}
+
+body {
+    font-family: "Josefin Sans", sans-serif!important;
+    background-color: var(--BackgroundColor) !important;
+}
+
+/* Header */
+header nav .title h1 {
+    font-size: 32px;
+    color: var(--Whitecolor);
+}
+.site-menu{
+    padding-left: 126px!important;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: transparent !important;
+    box-shadow: none;
+    color: var(--tabcolor) !important;
+    
+}
+
+.nav-link {
+    display: block;
+    color: var(--Greycolor) !important;
+    font-size: 14px !important;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+.nav-link i{
+    font-size: 14px!important;
+    margin: 0 5px;
+}
+.navbar-toggler-icon{
+    background-color: white!important;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    color: var(--tabcolor) !important;
+}
+
+.social-icons ul {
+    list-style: none;
+}
+
+.social-icons ul li a i {
+    color: var(--Greycolor);
+}
+
+.social-icons ul li a:hover i {
+    color: white;
+}
+
+/* main */
+.img-wrap {
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-wrap::before {
+    content: "";
+    background-color: black;
+    transition: opacity 0.5s ease;
+}
+
+.img-wrap img {
+    filter: grayscale();
+    transition: opacity 0.5s ease;
+}
+
+.img-wrap:hover img {
+    filter: none;
+    transform: scale(1.01);
+    opacity: 0.5;
+}
+
+.col-lg-4 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.img-info {
+    font-weight: 100;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+    transition: opacity 0.5s ease;
+}
+
+
+.img-info h2 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.img-info a {
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 0;
+    font-weight: 500;
+}
+
+.img-info a:hover {
+    background-color: #fff;
+
+}
+
+/* footer */
+footer p {
+    color: white;
+    font-weight: 500;
+    letter-spacing: .1em;
+}
+
+
